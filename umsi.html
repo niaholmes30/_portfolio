@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>UMSI Portal Redesign</title>
+</head>
+<body>
+    <header>
+        <div class="nav-menu">
+            <div id="header">
+                <p id="logo">Nia Holmes</p>
+                <button id="menu-toggle">☰</button>
+            </div>
+            <nav id="main-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+                <div class="current-proj">
+                    <p>UMSI Website Redesign</p>
+                </div>                
+            </nav>
+        </div>
+        <div class="desktop-nav">
+            <div id="desktop-header">
+                <p id="logo">Nia Holmes</p>
+            </div>
+            <nav id="desktop-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </nav>
+            <div class="current-proj">
+                <p>UMSI Student Success Portal Redesign</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="proj-overview">
+            <img class="thumbnail" src="./images/umsi-visual.png" alt="UMSI project thumbnail">
+            <!-- <video autoplay class="videos" src="./videos/umsi-video.mov"></video> -->
+            <div class="overview-list">
+                <h1>Project Overview</h1>
+                <p><strong>Title:</strong> UMSI Academic Success Portal Redesign</p>
+                <p><strong>Design Challenge:</strong> Improve UMSI's Student Success Team's web presence by optimizing their current website, focusing on accessibility and responsive design.</p>
+                <p><strong>Team & Timeline:</strong> This was a solo project; January 20th, 2025 - March 30th, 2025</p>
+                <p><strong>Role:</strong> Web/UX Designer</p>
+                <p><strong>Industry:</strong> Product Design</p>
+                <p><strong>Tools:</strong> Visual Studio Code, HTML, & CSS</p>
+                <div class="middle">
+                    <div class="text"><a href="https://niaholmes.github.io/client_project_w25/">Interact with website</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="jump-to">
+            <h2>Table of Contents</h2>
+            <ol>
+                <li><a href="#intro">The Current Academic Success Portal</a></li>
+                <li><a href="#purpose">Project Purpose</a></li>
+                <li><a href="#objectives">Client's Objectives</a></li>
+                <li><a href="#evaluation">Heuristic Evaluation</a></li>
+                <ul>
+                    <li><a href="#states">Visibility of System States</a></li>
+                    <li><a href="#system">Match between system and the real world</a></li>
+                    <li><a href="#freedom">User control and freedom</a></li>
+                    <li><a href="#consistency">Maintain consistency and standards</a></li>
+                    <li><a href="#flexibility">Flexibility and efficiency of use</a></li>
+                    <li><a href="#aesthetic">Aesthetic and minimalist design</a></li>
+                </ul>
+            </ol>
+        </div>
+        <div class="intro">
+            <h3 id="intro">The Current Academic Success Portal</h3>
+            <div class="proj-center">
+                <img class="thumbnail" src="./images/umsi-original-visual.png" alt="UMSI's original website">
+                <p>The Student Success Team's current website has a lot of information and various different links, which may prove to cause decision paralysis for some students.</p>
+                <div class="mobile-img-text">
+                    <img class="thumbnail" id="mobile" src="./images/umsi-mobile-visual.png" alt="USMI's mobile view of the menu">
+                    <p>The overwhelming amount of navigation links can also be quite confusing for the student (especially in the mobile view), inhibiting them from finding the information and resources they need.</p>
+                </div>
+            </div>
+        </div>
+        <div class="purpose">
+            <h4 id="purpose">Project Purpose</h4>
+            <p>The UMSI Student Success team sought to improve its web presence by designing a new website to better help students understand and locate resources available to them. The new site should feature an accessible and responsive design that works on multiple devices, a modern look and feel, and a refreshed site architecture and site content. The target user of this website is an undergraduate student taking classes at UMSI BSI.</p>
+        </div>
+        <div class="objectives">
+            <h4 id="objectives">Client's Objectives</h4>
+            <ol>
+                <li>Create an updated website for Student Support Resources to better help students find and utilize resources available to them on campus to help them:</li>
+                    <ul>
+                        <li>Be more successful academically</li>
+                        <li>Achieve better school/life balance</li>
+                        <li>Find resources in times of crisis</li>
+                    </ul>
+                <li>Update and enhance the site's design and information architecture to make it easy to find resources and understand how to utilize them.</li>
+                <li>Organize and refine content to compete with peer institutions and emphasize the Michigan Difference</li>
+                <li>Optimize site content and images for different screen sizes</li>
+                <li>Ensure that the site is fully accessible and usable for all students - including those with different disabilities</li>
+                <li>Have a visually appealing modern looking website that fits within UM's Branding Guidelines</li>
+            </ol>
+        </div>
+        <div class="evaluation">
+            <h4 id="evaluation">Heuristic Evaluation</h4>
+            <p>I decided to conduct a heuristic evaluation for this project for quick, broad issue detection on the current website's interface, having to optimize both mobile and desktop view. </p>
+        </div>
+        <div class="proj-phase">
+            <h5 id="states">Visibility of System States</h5>
+        </div>
+        <div class="proj-body">
+            <p><strong>Current Website</strong></p>
+            <img class="thumbnail" src="./images/X-V table.png" alt="chart displaying the website's features">
+            <p>There are identifiers when you navigate to each page, showing the user which page they have navigated to. For example, there is a breadcrumb area (i.e. Home > Student Experience). However, because each tab in the secondary navigation bar is a different color, it may take a user a bit longer to realize that when a tab is yellow it means that is the current page they're on (the page header can make up for this, though, since they match the tab titles.) The navigation links in the uppermost navigation bar also lack a hover state.</p>
+            <p><strong>How I Addressed It</strong></p>
+            <img class="thumbnail" src="./images/navbar redesign.png" alt="how I redesigned the nav bar">
+            <img class="thumbnail" src="./images/navbar redesign hover.png" alt="how I redesigned the nav bar hover state">
+            <p>In my redesign, I decided to not only lessen the amount of navigation links in the navigation bar, but also make sure there is a clear and simple page identifier. I also made sure to add in a clear hover state for the links in the navigation bar.</p>
+        </div>
+        <div class="proj-phase">
+            <h6 id="system">Match between system and the real world</h6>
+        </div>
+        <div class="proj-body">
+            <p><strong>Current Website</strong></p>
+            <img class="thumbnail" src="./images/primary nav placement.png" alt="original primary nav bar placement">
+            <p>Each label used in the navigation and as headers on each page uses familiar language; UMSI students would be the users visiting this page, and there is nothing out of the ordinary that would be difficult to understand. However, the placement of the primary navigation bar may be overlooked by some users. I do agree that it should be placed before the secondary navigation bar for a more logical order, but it should be placed a bit lower.</p>
+            <p><strong>How I Addressed It</strong></p>
+            <p>Because my redesign was meant to focus on just undergrad UMSI students, the website would have more specified information, so I decided I could completely eliminate the use of 2 navigation bars.</p>
+        </div>
+        <div class="proj-phase">
+            <h6 id="freedom">User control and freedom</h6>
+        </div>
+        <div class="proj-body">
+            <p><strong>Current Website</strong></p>
+            <p>If a user travels to a page accidentally, or if they realize that it's not the page they wanted to navigate to, the breadcrumb feature I mentioned earlier is very useful to go back (i.e. Home > Program > Bachelor of Science in Information) and this can act as the user's “emergency exit.”</p>
+            <p>This feature can also pertain to error prevention, recognition rather than recall, error recognition and recovery, and help and documentation, as it allows users to see the path they have taken to reach their current page.</p>
+            <p><strong>How I Addressed It</strong></p>
+            <p>The navigation bars, however, are not fixed, so if a user scrolls down the page and then realizes they are on the same page, they'd have to scroll all the way back up, which may cause some accessibility issues for users with mobility constraints like arthritis.</p>
+        </div>
+        <div class="proj-phase">
+            <h6 id="consistency">Maintain consistency and standards</h6>
+        </div>
+        <div class="proj-body">
+            <p><strong>Current Website</strong></p>
+            <p>The website does a good job of keeping the layout consistent throughout each page, so I made sure to keep that aspect for my redesign.</p>
+        </div>
+        <div class="proj-phase">
+            <h6 id="flexibility">Flexibility and efficiency of use</h6>
+        </div>
+        <div class="proj-body">
+            <p><strong>Current Website</strong></p>
+            <p>The site has a search engine which will help newer users find the information they are looking for quicker, and more familiar users will know which tabs and links to navigate to in order to find the information they are looking for.</p>
+            <p><strong>How I Addressed It</strong></p>
+            <p>Because I lessened the amount of information in this redesign, I did not think a search engine was necessary and there is clear and simplified information on each page.</p>
+        </div>
+        <div class="proj-phase">
+            <h6 id="aesthetic">Aesthetic and minimalist design</h6>
+        </div>
+        <div class="proj-body">
+            <p><strong>Current Website</strong></p>
+            <p>There was a lot of clutter on the site, mainly because of the amount of navigation links, which I believe takes away from the minimalistic and aesthetic feel of the website, which is something that the client expressed they wanted the website to have.</p>
+            <p><strong>How I Addressed It</strong></p>
+            <p>I decided to take advantage of the fact that this redesign was meant to target only undergraduate UMSI students and I was able to minimize the amount of information on the screen, which gave it a way cleaner look. Minimizing the navigation contributed to the betterment of the minimalistic and aesthetic feel of the website.</p>
+        </div>
+    </main>
+<button onclick="" id="myBtn" title="Go to top">&#8593;</button>
+<footer>
+    <div class="next-proj">
+        <p><a href="menstrual.html">Next project →</a></p>
+    </div>
+    <div class="footer-container">
+        <div class="contacts">
+            <p id="thanks">Thank you for your interest in my work!</p>
+            <p>My Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=niaholme@umich.edu" target="_blank" rel="noopener"> niaholme@umich.edu</a></p>
+            <p>My LinkedIn: <a href="http://linkedin.com/in/niaholmes30"> http://linkedin.com/in/niaholmes30</a></p>
+            <p id="copy">&copy; Copyright <span id="current-year"></span> by Nia Holmes</p>
+        </div>         
+    </div>
+</footer>
+<script src="./js/script.js"></script> 
+</body>
+</html>

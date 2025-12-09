@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Usability Test</title>
+</head>
+<body>
+    <header>
+        <div class="nav-menu">
+            <div id="header">
+                <p id="logo">Nia Holmes</p>
+                <button id="menu-toggle">☰</button>
+            </div>
+            <nav id="main-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+                <div class="current-proj">
+                    <p>Chick-fil-A Usability Test</p>
+                </div>
+            </nav>
+        </div>
+        <div class="desktop-nav">
+            <div id="desktop-header">
+                <p id="logo">Nia Holmes</p>
+            </div>
+            <nav id="desktop-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </nav>
+            <div class="current-proj">
+                <p>Chick-fil-A Usability Test</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="proj-overview">
+            <div class="proj-text">
+                <div class="proj-center">
+                    <img class="thumbnail" src="./images/cfa-thumbnail.png" alt="Project thumbnail">
+                </div>
+                <h1>Project Overview</h1>
+                <p><strong>Title:</strong> Chick-fil-A's Website Usability Test</p>
+                <p><strong>Test Details</strong> Formal usability test; 3 participants</p>
+                <p><strong>Team & Timeline:</strong> This was a solo project; November 24th, 2025 - December 5th 2025</p>
+                <p><strong>Role:</strong> UX Researcher</p>
+                <p><strong>Tools:</strong> Google Sheets, Google Docs</p>
+            </div>
+        </div>
+        <div class="jump-to">
+            <h2>Table of Contents</h2>
+            <ol>
+                <li><a href="#objective">Objective</a></li>
+                <li><a href="#tasks">Tasks & Expected Paths</a></li>
+                <li><a href="#issues">Key Usability Issues & Recommendations</a></li>
+                <li><a href="#more-issues">Other Identified Issues</a></li>
+            </ol>
+        </div>
+        <div class="objective">
+            <h3 id="objective">Objective</h3>
+            <p>The objective of this test is to assess how easily users can discover Chick-fil-A's hours of operation, locate nutritional and allergen information, and understand Chick-fil-A's reward program. Participants will include individuals who have used restaurant websites before, and exclude individuals who visit Chick-fil-A's website more than once a week.</p>
+        </div>
+        <div class="tasks">
+            <div class="proj-phase">
+                <h4 id="tasks">Tasks & Expected Paths</h4>
+            </div>
+            <div class="proj-body">
+
+                <ol class="expected-path2">
+                    <li>Find the closest Chick-fil-A location and see its hours of operation.</li>
+                        <ul class="expected-path">
+                            <li>Expected Path 1: Click "Find a Restaurant” at the top of the page > Enter zip code > Find the closest location and click “View Details” > Scroll down to view the location's hours of operation.</li>
+                            <li>Expected Path 2: Click “Find a Restaurant” > Click “Use my location” > Find the closest location and click “View Details” > Scroll down to view the location's hours of operation.</li>
+                        </ul>
+                    <li>Find out the amount of calories that are in the spicy breakfast filet.</li>
+                        <ul class="expected-path">
+                            <li>Expected Path: Open the Menu, scroll to the bottom and click "Nutrition & Allergens" > Navigate to the “Proteins” tab > Read the "Calories" section of the table for the breakfast and lunch spicy filets.</li>
+                        </ul>
+                    <li>Determine how much sodium is in the Light Italian Dressing.</li>
+                        <ul class="expected-path">
+                            <li>Expected Path: Stay on the "Nutrition & Allergens" page > Navigate to the “Dressings” tab > Read the “Sodium” section of the table for the Light Italian Dressing.</li>
+                        </ul>
+                    <li> Find out if the Waffle Potato Fries are safe for a gluten allergy.</li>
+                        <ul class="expected-path">
+                            <li>Expected Path: Stay on the "Nutrition & Allergens" page > Toggle from the “Nutrition” tab to the “Allergens” tab > Navigate to the “Sides” tab > Find the Waffle Potato Fries and see if there is a checkmark under the “Wheat” section of the table.</li>
+                        </ul>
+                    <li>Compare the serving sizes for the Chilled Chick n' Strips catering tray</li>
+                        <ul class="expected-path">
+                            <li>Expected Path: Click the "Catering" link in the navigation bar > Click the “Trays” link in the navigation bar > Find the option for the chilled chick n' strips > Click the card image  > View the different serving options.</li>
+                        </ul>
+                    <li>Find all the vegetarian and vegan options offered on the menu.</li>
+                        <ul class="expected-path">
+                            <li>Expected Path 1: Scroll to the footer and click “Customer Support” > Locate the “Our Food” card and click the “Our Menu” sub link > Scroll and find the “Do you offer any vegan or vegetarian items on the menu?” FAQ tab.</li>
+                            <li>Expected Path 2: Scroll to the footer and click “Customer Support” > Search something like “vegetarian and vegan options” > Click the “Do you offer any vegan or vegetarian items on the menu?” FAQ tab, which is first. </li>
+                        </ul>
+                    <li>Find out the last day the Peppermint Chip Milkshake is available at Chick-fil-A.</li>
+                        <ul class="expected-path">
+                            <li>Expected Path: Stay on the “Customer Support” page > Search something like “seasonal beverages” > Click the “When and Where the Peppermint Chip Milkshake and Holiday Seasonal Beverages and Treats  Available?” FAQ tab.</li>
+                        </ul>
+                    <li>Determine how much sugar is needed for Chick-fil-A's Cherry Berry Biscuit Jelly recipe.</li>
+                        <ul class="expected-path">
+                            <li>Expected Path 1: Stay on the “Customer Support” page > Locate the “Our Food” card and click the “Recipes” sub link > Click the “Where can I find Chick-fil-A Recipes?” FAQ tab, which is first > Click the hyperlink “The Feed” > Scroll down until you see “Want to see more recipes?” then click the “See all” button > Scroll until you see “Cherry Berry Biscuit Jelly” then click it > Locate the “Ingredients” section to see how much sugar it needs.</li>
+                            <li>Expected Path 2: Stay on the “Customer Support” page > Search something like “recipes” or “Cherry Berry Jelly recipe” > Find and click the “Where can I find Chick-fil-A Recipes?” FAQ tab > Click the hyperlink “The Feed” > Scroll down until you see “Want to see more recipes?” then click the “See all” button > Scroll until you see “Cherry Berry Biscuit Jelly” then click it > Locate the “Ingredients” section to see how much sugar it needs.</li>
+                        </ul>
+                    <li>Find the different memberships for the Chick-fil-A One rewards program.</li>
+                        <ul class="expected-path">
+                            <li>Expected Path 1: Navigate to the “rewards” link in the navigation bar > Scroll down to the “You benefits get better at each tier” section > Read through each membership tier tab.</li>
+                            <li>Expected Path 2: Stay on the “Customer Support” page” > Locate the “Chick-fil-A One Membership Program” card and click the “Benefits & tiers” sub link  > Click the “What are the Chick-fil-A One Membership tiers” FAQ > Click the “Chick-fil-A One page” hyperlink > Scroll down to the “You benefits get better at each tier” section > Read through each membership tier tab.</li>
+                        </ul>
+                    <li>Determine which rewards member plan does not allow you to give rewards to friends and family.</li>
+                        <ul class="expected-path">
+                            <li>Expected Path: Stay on the rewards page > Read through each membership tier tab.</li>
+                        </ul>
+                </ol>
+            </div>
+        </div>
+        <div class="issues">
+            <div class="proj-phase">
+                <h5 id="issues">Key Usability Issues & Recommendations</h5>
+            </div>
+            <div class="proj-body">
+                <div class="proj-center">
+                    <p><strong>Problem 1:</strong> (3/3) Users assumed the spicy breakfast filet would appear under the breakfast tab, and were confused when it was not there.</p>
+                    <p><strong>Initial Breakfast Page:</strong></p>
+                    <img class="thumbnail" src="./images/initial-breakfast.png" alt="Chick-fil-A's initial breakfast page">
+                    <p><strong>Breakfast Page after starting a pick-up order:</strong></p>
+                    <img class="thumbnail" src="./images/break-pro.png" alt="Chick-fil-A's second breakfast page">
+                    <ul>
+                        <li><strong>Recommendation</strong> Since the spicy breakfast filet is an actual menu item (as well as other filets), it is recommended that it be present on the initial home page of the site. Users should not have to start a pickup order in order to know that the item is offered.</li>
+                    </ul>
+                    <p><strong>Problem 2:</strong> (2/3) Users were already on the “Nutrition & Allergens” table, but exited out of the page and navigated to the “Waffle Potato Fries” page when they were tasked with determining if the Waffle Potato Fries are safe for a gluten allergy.</p>
+                    <p><strong>Problem 3:</strong> (1/3) A participant noticed the “allergens” tab in the sidebar of the “Nutrition & Allergens” table and navigated to it, per the expected path, but once they did not see “gluten” explicitly listed as a table category, they navigate to the “Waffle Potato Fries” page to determine if the Waffle Potato Fries are safe for a gluten allergy, similarly to the other 2 participants.</p>
+                    <img class="thumbnail" src="./images/allergen.png" alt="Chick-fil-A's nutrition & allergen table">
+                    <img class="thumbnail" src="./images/allergen2.png" alt="Chick-fil-A's nutrition & allergen information under specific menu item">
+                    <ul>
+                        <li><strong>Recommendation</strong> Make the “allergens” tab of the sidebar more apparent, and include all the nutrition and allergen information for each menu item on that menu item's designated page, so that users do not have to navigate to a completely different page to determine if an item meets their dietary preferences.</li>
+                    </ul>
+                    <p><strong>Problem 4:</strong> (3/3) Users did not see a clear way to determine what all the vegan and vegetarian options are on the menu, so they went through each menu item to make the determination themselves.</p>
+                    <img class="thumbnail" src="./images/dietary.png" alt="Chick-fil-A's hidden dietary preferences table">
+                    <ul>
+                        <li><strong>Recommendation</strong> The “dietary preferences” page only exists if the user starts a pick up order, so it is recommended that you include this page on both versions of the site.</li>
+                    </ul>
+                    <p><strong>Problem 5:</strong> (3/3) Users were only able to determine that the Peppermint Chip Milkshake was available for a “limited time,” but they were unable to determine the exact dates of which the item is available. Each participant assumed the exact dates would be present on the Peppermint Chip Milkshake page.</p>
+                    <img  class="thumbnail" src="./images/peppermint.png" alt="Chick-fil-A's peppermint chip milkshake page">
+                    <ul>
+                        <li><strong>Recommendation</strong>  Include the exact start and end date for the availability of the seasonal beverages on their designated page, so users know exactly when the items will no longer be available.</li>
+                    </ul>
+                    <p><strong>Problem 6:</strong> (1/3) A participant was met with a differently structured site after entering the “start a pickup order” page. This newly structured site had a different navigation structure, as well as missing elements that were once present, like the “search” option. Also, three key elements (that would have been useful for participants to complete tasks 2, 5, and 6) are missing from this differently structured page. The filets are present as a menu item, there is a “Dietary Preferences” page (that includes check box options like “vegetarian,” and “gluten sensitive), and the “catering” option is no longer present in the navigation, which caused P3 to not complete task 5 (while P1 and P2 completed it in less than 1 minute).</p>
+                    <p><strong>Version 1 (initial home page):</strong></p>
+                    <img class="thumbnail" src="./images/initial-menu.png" alt="Chick-fil-A's initial home page">
+                    <p><strong>Version 2 (home page after starting a pick-up order):</strong></p>
+                    <img class="thumbnail" src="./images/second-menu.png" alt="Chick-fil-A's second home page">
+                    <ul>
+                        <li><strong>Recommendation</strong> Ensure that there is page setup consistency so that users are able to find what they are looking for regardless of what page they are on.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="more-issues">
+            <div class="proj-phase">
+                <h5 id="more-issues">Other Identified Issues</h5>
+            </div>
+            <div class="proj-body">
+                <ol>
+                    <li>(1/3) Users felt the “Find Restaurant” button was too small, as they nearly missed it when trying to complete task 1.</li>
+                    <li>(1/3) Users felt the labels in the nutrition & allergen table were too small. They also did not like that the labels were diagonal, meaning you have to tilt your head to read them. Lastly, they did not think having to scroll the right on the table to see all the categories was very intuitive.</li>
+                    <li>(2/3) Users did not like that the nutrition and allergen information were located on a different page. (1/3) User said it is “annoying” that the information is located on a separate page.</li>
+                    <li>(1/3) Users felt the order of the items in the sidebar of the nutrition & allergen table was confusing.</li>
+                    <li>(1/3) User believed it would be easier to discover Chick-fil-A recipes if the link to the recipes page existed in the “explore all” page.</li>
+                    <li>(1/3) Users believe the menu is easy to navigate if you are someone who is familiar with it, suggesting it is harder for newer users to navigate the menu successfully.</li>
+                    <li>(1/3) User believes the website is easy to navigate, but thinks it could benefit from having better organization.</li>
+                </ol>
+            </div>
+        </div>
+    </main> 
+<button onclick="" id="myBtn" title="Go to top">&#8593;</button>
+<footer>
+    <div class="next-proj">
+        <p><a href="umgpt.html">Next project →</a></p>
+    </div>
+    <div class="footer-container">
+        <div class="contacts">
+            <p id="thanks">Thank you for your interest in my work!</p>
+            <p>My Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=niaholme@umich.edu" target="_blank" rel="noopener"> niaholme@umich.edu</a></p>
+            <p>My LinkedIn: <a href="http://linkedin.com/in/niaholmes30"> http://linkedin.com/in/niaholmes30</a></p>
+            <p id="copy">&copy; Copyright <span id="current-year"></span> by Nia Holmes</p>
+        </div>         
+    </div>
+</footer>
+<script src="./js/script.js"></script>   
+</body>
+</html>

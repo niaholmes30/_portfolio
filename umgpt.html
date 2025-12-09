@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>U-M GPT Redesign</title>
+</head>
+<body>
+    <header>
+        <div class="nav-menu">
+            <div id="header">
+                <p id="logo">Nia Holmes</p>
+                <button id="menu-toggle">☰</button>
+            </div>
+            <nav id="main-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+                <div class="current-proj">
+                    <p>U-M GPT Redesign</p>
+                </div>
+            </nav>
+        </div>
+        <div class="desktop-nav">
+            <div id="desktop-header">
+                <p id="logo">Nia Holmes</p>
+            </div>
+            <nav id="desktop-menu">
+                <ul class="desktop-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </nav>
+            <div class="current-proj">
+                <p>U-M GPT Redesign</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="proj-overview">
+            <img class="thumbnail" src="./images/Initial Home Screen.png" alt="U-M GPT project thumbnail">
+            <!-- <video autoplay class="videos" src="./videos/umgpt-video.mov"></video> -->
+            <div class="proj-text">
+                <h1>Project Overview</h1>
+                <p><strong>Title:</strong> U-M GPT Redesign & Feature Implementation</p>
+                <p><strong>Design Challenge:</strong> Redesign U-M GPT's interface and optimize it through feature implementations for better student use.</p>
+                <p><strong>Team & Timeline:</strong> This is a solo project; September 18th, 2025 - Present</p>
+                <p><strong>Role:</strong> UI/UX Designer</p>
+                <p><strong>Industry:</strong> Product Design</p>
+                <p><strong>Tools:</strong> Figma</p>
+                <div class="middle">
+                    <div class="text"><a href="https://www.figma.com/proto/EJVr980jT2oKtaJBc1HYJh/307-Lab---Nia-Holmes?page-id=429%3A1133&node-id=654-3444&p=f&viewport=-48%2C136%2C0.08&t=ozdc7NnH8lK305X1-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=654%3A3444">Interact with prototype</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="jump-to">
+            <h2>Table of Contents</h2>
+            <ol>
+                <li><a href="#intro">What Is U-M GPT?</a></li>
+                <li><a href="#summary">Design Summary</a></li>
+                <li><a href="#design-process">Design Thinking Process</a></li>
+                <ul>
+                    <li><a href="#emphasize">Emphasize</a></li>
+                    <li><a href="#define">Define</a></li>
+                    <li><a href="#ideate">Ideate</a></li>
+                    <li><a href="#prototype">Prototype</a></li>
+                    <li><a href="#test">Test</a></li>
+                    <li><a href="#implement">Implement</a></li>
+                </ul>
+                <!-- <li><a href="#landing">Landing Page Redesign</a></li>
+                <li><a href="#outro">Summary</a></li> -->
+            </ol>
+        </div>
+        <div class="intro">
+            <h3 id="intro">What Is U-M GPT?</h3>
+            <div class="proj-center">
+                <img class="thumbnail" src="./images/umgpt-original-visual.png" alt="U-M GPT's original interface">
+                <p>U-M GPT is one of University of Michigan's GenAI Resources. It utilizes a model of ChatGPT and has access to U of M-specific information. The application focuses on accessibility, privacy, security, and equity for all individuals of the U-M community that use it.</p>
+            </div>
+        </div>
+        <div class="summary">
+            <h4 id="summary">Design Summary</h4>
+            <div class="proj-center">
+                <p>This redesign concentrates on the implementation of folder creation. These folders would have specific focuses based on document uploads and assigned “role” from the user. This design allows for 3 key elements that are particularly useful to students:</p>
+                <img class="thumbnail" src="./images/New Folder Box.png" alt="Folder creation box">
+                <ul>
+                    <li><strong>Organization:</strong> Chats of similar topics go into the same folder.</li>
+                    <li><strong>Efficiency:</strong> The user needs only to upload documents & name a “role” once.</li>
+                    <li><strong>Topic-specific Responses:</strong> Meaningful responses based on information from uploaded documents & assigned “role.”</li>
+                </ul>
+            </div>
+        </div>
+        <div class="design-process">
+            <h5 id="design-process">My Design Thinking Process</h5>
+            <div class="proj-center">
+                <p>I identified that design thinking would help me produce a user-centric solution to the design challenge, especially since there is no formal interviewing for this project.</p>
+            </div>
+        </div>
+        <div class="proj-phase">
+            <h6 id="emphasize"><span class="circle">Emphasize</span> conducting research to <span class="underline">understand</span> the <span class="underline">users.</span></h6>
+        </div>
+        <div class="proj-body">
+            <p><strong>Stakeholder Remarks</strong></p>
+            <ul>
+                <li>Needs a better user interface, it's currently plain & basic</li>
+                <li>Students need to know what they are able to do with it, and what it can do</li>
+                <li>The application can benefit from student's perspective and optimization</li>
+            </ul>
+                <p><strong>Peer Remarks</strong></p>
+            <ul>
+                <li>The application is slow; it takes a while to send responses</li>
+                <li>U-M GPT uses a model of ChatGPT, so why should U-M GPT be used instead?</li>
+            </ul>
+        </div>
+        <div class="proj-phase">
+            <h6 id="define"><span class="circle">Define</span> combining research to <span class="underline">identify</span> where user's <span class="underline">problems</span> exist</h6>
+        </div>
+        <div class="proj-body">
+            <p>Taking U-M GPT's representative's and my peer's remarks into consideration, I decided the most prominent user problem was efficiency, personalization, and understanding.</p>
+            <ul>
+                <li><strong>Efficiency</strong> users felt the application moved too slowly, compared to other GenAI tools, like ChatGPT</li>
+                <li><strong>Personalization</strong> the representative expressed the interface is plain & basic, while peers expressed they didn't see a real reason to use it since it utilizes a model of ChatGPT</li>
+                <li><strong>Understanding</strong> the representative expressed how they needed to ensure the users know what the tool can do and how to use it</li>
+            </ul>
+        </div>
+        <div class="proj-phase">
+            <h6 id="ideate"><span class="circle">Ideate</span> <span class="underline">generating</span> a range of crazy, <span class="underline">creative ideas</span></h6>
+        </div>
+        <div class="proj-body">
+            <div class="proj-center">
+                <img class="thumbnail" src="./images/Sketches copy.png" alt="Wireframe sketches of ideas"><br>
+                <ol>
+                    <li>A way for students to understand what U-M GPT can do through an automated message from U-M GPT (understanding)</li>
+                    <li>Feedback after a user sends in a prompt, notifying them of how long until the response is shown (efficiency, personalization)</li>
+                    <li>A way to switch between each U-M GenAI tool within the same site (efficiency)</li>
+                    <li>U of M-specific recommended chat prompts, upon opening the site (personalization)</li>
+                    <li>A more organized side bar so there isn't an endless list of previous chats (efficiency)</li>
+                    <li>Automatic prompt suggestions/corrections that help user's prompts follow AI prompt guidelines (prompt engineering - efficiency, personalization)</li>
+                    <li>A way for users to organize their chats through folders (efficiency, personalization)</li>
+                </ol>
+            </div>
+        </div>
+        <div class="proj-phase">
+            <h6 id="prototype"><span class="circle">Prototype</span> building <span class="underline">tactile representations</span> for a range of your ideas<br></h6>
+        </div>
+        <div class="proj-body">
+            <p>The mixing/re-building of ideas:</p>
+            <ul>
+                <li>U of M-specific topics may not always be the reason for using the GenAI tool , so include a mixture of U of M topics, as well as other topics</li>
+                <li>When creating folders, users can upload documents and assign a role (like, “Act as a UX designer”), so U-M GPT has all the information it needs when answering questions in chats in that folder</li>
+                <li>Include a “Response displaying in 5…” feedback message to keep the user updated</li>
+            </ul>
+        </div>
+        <div class="proj-phase">
+            <h6 id="test"><span class="circle">Test</span> get <span class="underline">user feedback</span> on the prototype</h6>
+        </div>
+        <div class="proj-body">
+            <p>I conducted a usability test of my prototype with a partner in class.</p>
+            <p><strong>Task & Follow-up Question</strong></p>
+            <ol>
+                <li>Show me how you would view your existing folders</li>
+                <li>Show me how you would create a folder</li>
+                <li>Show me how you would navigate out of the folder you are currently in</li>
+            </ol><br>
+            <p><strong>Follow-up Question:</strong> Ask how they felt completing each task. Was it easy? Was it difficult? (Gives me intel on whether or not the process of locating, creating, and exiting folders is simple.)</p>
+            <p><strong>Key Findings:</strong></p>
+            <ol>
+                <li>I should make multiple ways to create and view folders; the user expressed that they thought the plus icon within the chat bubble had more to do with the chat itself, rather than creating a folder.</li>
+                <li>The actual folder creation process is straightforward</li>
+                <li>I should make it easier to switch between folders/start new chats; users are still able to chat with U-M GPT if they are not in a folder, so if they want to chat outside of a folder, I should make it easier for them to do that, without complicating the act of starting a new chat within a folder.</li>
+            </ol>
+            <p><strong>Design Recommendations</strong></p>
+            <ol>
+                <li>Make the “Folders” button in the collapsed side bar open a new section in the side bar that is just a list of all the user's folders, and also has a way (like a “+”) the user can create a folder from there.</li>
+                <li>Make it easier for the user to navigate between folders, like using a breadcrumb trail (e.g. U-M GPT > SI 261).</li>
+            </ol>
+        </div>
+        <div class="proj-phase">
+            <h6 id="implement"><span class="circle">Implement</span> <span class="underline">make adjustments</span> based on the user feedback</h6>
+        </div>
+        <div class="proj-body">
+            <div class="proj-center">
+                <p>Taking into account the findings my usability test gave me, I optimized my prototype further. I created a way for users to quickly exit out of their current folder and switch between their existing folders.</p>
+                <img class="thumbnail" src="./images/Folders exit.png" alt="My design implementations">
+            </div>
+        </div>
+    </main>
+<button id="myBtn" onclick="" title="Go to top">&#8593;</button>
+<footer>
+    <div class="next-proj">
+        <p><a href="umsi.html">Next project →</a></p>
+    </div>
+    <div class="footer-container">
+        <div class="contacts">
+            <p id="thanks">Thank you for your interest in my work!</p>
+            <p>My Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=niaholme@umich.edu" target="_blank" rel="noopener"> niaholme@umich.edu</a></p>
+            <p>My LinkedIn: <a href="http://linkedin.com/in/niaholmes30"> http://linkedin.com/in/niaholmes30</a></p>
+            <p id="copy">&copy; Copyright <span id="current-year"></span> by Nia Holmes</p>
+        </div>         
+    </div>
+</footer>
+<script src="./js/script.js"></script> 
+</body>
+</html>
